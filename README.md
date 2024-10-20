@@ -90,5 +90,15 @@ All dependencies are listed in the `requirements.txt` file. Key libraries includ
 - **HuggingFace Embeddings**: For embedding document chunks into vector space
 - **Unstructured**: For handling Excel document parsing
 
+## Future Improvements
+
+To further optimize the model and enhance the accuracy of the survey analysis, the following steps can be considered for future versions:
+
+- **Data Cleaning and PDF Conversion**: A potential improvement would be to clean the tabular data and convert it into a PDF format before processing. This can lead to:
+  - **Faster Execution**: PDFs are more compact, which can reduce processing time.
+  - **Improved Accuracy**: Cleaned and well-structured data in a standardized format like PDF will allow the retrieval model to provide more accurate responses.
+  - **Better Resource Management**: Optimized file formats help manage memory and resources more efficiently.
+
+Implementing this step would contribute to an overall more robust and optimized pipeline.
 
 Now you're all set to analyze surveys using this code! Enjoy using and extending the project.
